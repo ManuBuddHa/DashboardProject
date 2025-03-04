@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
    font-family: Roboto, sans-serif;
+   background-color: black;
 }
 #basic-grid{
    display: grid;
@@ -13,7 +14,11 @@ body{
 }
 #header{
    grid-area: 1/2/1/5;
-   background-color: grey;
+   background-color: #fff;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   grid-template-rows: 1fr 2fr;
+   padding: 0vh 10vh 0vh 3vh;
 }
 #info{
    grid-area: 2/2/4/4;
