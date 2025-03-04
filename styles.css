@@ -22,10 +22,10 @@ body{
 }
 #info{
    grid-area: 2/2/4/4;
-   background-color: blue;
+   background-color: #e2e8f0;
    display: grid;
-   grid-template-rows: 8% 85%;
-   grid-template-columns: 100%;
+   grid-template-rows: 0.1fr 1.9fr;
+   grid-template-columns: 2fr;
 }
 #rightbar{
    grid-area: 2/4/4/4;

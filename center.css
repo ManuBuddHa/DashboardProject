@@ -1,0 +1,32 @@
+.cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 1vw;
+   margin-top: -1vh;
+   margin-left: 1vw;
+   margin-right: 1vw;
+   margin-bottom: 8vh;
+}
+.card{
+   background-color: white;
+   border-radius: .5vw;
+   border-left: 0.5vw solid #F0B429;
+   padding: 1vw;
+   align-items: center;
+   box-shadow: 2px 2px 5px #D3D3E0;
+}
+.heading{
+   margin-left: 1vw;
+}
+.menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: end;
+}
+.content > h4{
+   margin-bottom: -0.5vw;
+   margin-top: 0vw;
+}
+.content > p{
+   color: #636363;
+}
