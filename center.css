@@ -20,8 +20,10 @@
 }
 .menu{
    display: flex;
-   justify-content: space-between;
+   justify-content: end;
    align-items: end;
+   gap: 2vw;
+   margin-right: 1.5vw;
 }
 .content > h4{
    margin-bottom: -0.5vw;
@@ -29,4 +31,7 @@
 }
 .content > p{
    color: #636363;
+}
+.menu >svg{
+   fill: black;
 }
